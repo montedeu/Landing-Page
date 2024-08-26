@@ -1,0 +1,149 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    padding: 0px 250px;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 0px 200px;
+}
+
+ul li {
+    display: inline;
+}
+
+#header-bar {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-body {
+    padding: 100px 0px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#header-logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#header-links, #header-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+#header-links {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+#header-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+#header-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 30px;
+    border-radius: 8px;
+    border: 0;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 15px 0px;
+}
+
+main {
+    padding: 0px 200px;
+}
+
+#information-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+#information-section {
+    display: flex;
+    flex: 1;
+    padding: 0px 100px;
+    justify-content: space-around;
+}
+
+.sub-text {
+    width: 180px;
+    text-align: center;
+    margin: 0;
+}
+
+#quote {
+    padding: 200px 120px;
+    background-color: #E5E7EB;
+}
+
+#quote-text {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin: 0;
+}
+
+#quote-author {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: end;
+    margin: 0;
+    padding: 0px 50px;
+}
+
+#call-to-action {
+    display: flex;
+    flex: 1;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 50px 100px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+#signup-button {
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-style: solid;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 30px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px;
+}
+
+#call-to-action-header {
+    font-size: 20px;
+    margin: 0;
+}
+
+#call-to-action-text {
+    margin: 0;
+}
